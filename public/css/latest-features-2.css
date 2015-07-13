@@ -1,0 +1,183 @@
+/*CSS Latest Features 2 Exercise*/
+/*(C) Lea Orias 2015*/
+/*CMSC 2 B-3L*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	font-family: "Comfortaa";
+}
+
+/*Link to like FB page*/
+.rect {
+	width: 30px;
+	height: 80px;
+	border: 1px dashed #84befe;
+	color: #84befe;
+	padding: 15px 10px 15px 10px;
+	position: fixed;
+	top: 200px;
+	right: -5px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+/*Container of everything*/
+.whole {
+	background-color: #cbe5ff;
+	width: 900px;
+	height: 1200px;
+	padding: 0px;
+	margin: auto;
+	background: linear-gradient(to top, #84befe, white);
+	padding-right: 40px;
+	padding-left: 40px;
+	position: relative;
+}
+/*Header*/
+.header {
+	width: 900px;
+	height: 360px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+/*White Box*/
+.box {
+	background-color: white;
+	width: 200px;
+	height: 175px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 1;
+	box-shadow: 5px 5px 10px gray;
+}
+
+/*Theme Preview*/
+.preview {
+	height: 360px;
+	width: 720px;
+	background-color: #84befe;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	font-size: 90px;
+	text-shadow: 5px 5px 10px gray;
+	text-align: center;
+}
+
+/*Middle container*/
+.container {
+	width: 900px;
+	height: 300px;
+	background-color: transparent;
+	position: relative;
+}
+
+/*Navigation*/
+a {	
+	float: left;
+	width: 168px;
+	text-decoration:none;
+	color:white;
+	background-color:#84befe;
+	padding: 5px;
+	text-align:center;
+	border: 1px solid white;
+	border-radius: 0px 15px 0px 0px;
+}
+
+a:hover {
+	background-color: white;
+	color: #84befe;
+}
+
+/*Middle container*/
+.mid {
+	position: absolute;
+	top: 32px;
+	background-color: white;
+	width: 900px;
+	height: 400px;
+	margin-bottom: 15px;
+}
+
+/*Last container*/
+.last {
+	background-color: white;
+	width: 900px;
+	height: 250px;
+	position: absolute;
+	top: 450px;
+}
+
+/*Left box*/
+.left {
+	background-color: white;
+	border: 2px dotted #84befe;
+	width: 425px;
+	height: 227px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+.left-head {
+	background: linear-gradient(to top, #84befe, lightblue);
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+/*Right box*/
+.right {
+	background-color: white;
+	border: 2px dotted #84befe;
+	width: 425px;
+	height: 227px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+.right-head {
+	background: linear-gradient(to top, #84befe, lightblue);
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+	border-radius: 0px 0px 20px 20px;
+}
+
+/*Footer*/
+.footer {
+	color: white;
+	float: right;
+	position: absolute;
+	bottom: 90px;
+	right: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*CSS Latest Features 2 Exercise*/
+/*(C) Lea Orias 2015*/
+/*CMSC 2 B-3L*/

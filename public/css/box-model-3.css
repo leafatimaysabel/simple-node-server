@@ -1,0 +1,140 @@
+body {
+    font-family: Arial;
+}
+
+.rect {
+    width: 20px;
+    height: 70px;
+    position: fixed;
+    top: 200px;
+    right: -5px;
+    border: 1px dashed #cbe5ff;
+    padding: 15px;
+}
+
+.whole {
+    width: 900px;
+    height: 1150px;
+    padding: 0;
+    background-color: #cbe5ff;
+    margin: auto;
+}
+
+
+.header {
+    background-color: transparent;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.preview {
+    width: 650px;
+    height: 360px;
+    background-color: #84befe;
+    margin: 0px;
+    position: relative;
+    left: 170px;
+    top: -120px;
+    margin-bottom: 0px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.nav {
+    color: white;
+    background-color: #84befe;
+    text-align: center;
+    width: 820px;
+    margin-top: 0px;
+}
+
+a {	
+	float:left;
+	width:142px;
+	text-decoration:none;
+	color:white;
+	background-color:#84befe;
+	padding: 10px;
+	border:1px solid white;
+	text-align:center;
+}
+
+a:hover {
+    background-color: #FFFFFF;
+    color: #84befe;
+}
+
+.container {
+    width: 820px;
+    background-color: #FFFFFF;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -110px;
+}
+
+.mid {
+    width: 900px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    text-align: right;
+    color: #84befe;
+    margin-right: 40px;
+    position: relative;
+    bottom: -240px;
+}
+
+.last {
+    background-color: white;
+    width: 810px;
+    padding: 5px;
+    position: absolute;
+    bottom: -360px;
+    z-index: 5;
+    height: 210px;
+}
+
+.left {
+    background-color: white;
+    width: 390px;
+    padding: 2px;
+    border: 2px dotted #84befe;
+    margin: 3px;
+    float: left;
+    height: 200px;
+}
+
+.left-head {
+    background-color: #84befe;
+    width: 380px;
+    height: 20px;
+    padding: 5px;
+}
+
+.right {
+    background-color: white;
+    width: 390px;
+    padding: 2px;
+    border: 2px dotted #84befe;
+    margin: 2px;
+    float: right;
+    height: 200px;
+} 
+
+.right-head {
+    background-color: #84befe;
+    width: 380px;
+    height: 20px;
+    padding: 5px;
+}
